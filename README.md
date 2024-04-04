@@ -1,8 +1,12 @@
-# React + Vite
+# Tela de Login em ReactJS (Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Presta atenção seus zé buceta (augusto e alot)
+<br><br>
 
-Currently, two official plugins are available:
+Ceis vão fazer o git clone dessa porra no vscode de vcs. 
+<br><br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Aí quando terminar, vcs dão um "npm install", que é pra baixar a merda das dependências e bibliotecas tudo. 
+<br><br>
+
+Dps é só dar um "npm run dev" e pimba.
