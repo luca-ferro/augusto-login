@@ -1,0 +1,127 @@
+.loginbubble {
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 90%;
+    border-radius: 3vw;
+    box-shadow: 0.7vw 1.5vh 2vw 1vh rgba(0, 0, 0, 0.3);
+}
+
+.greeting { 
+    width: 42%;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    -webkit-touch-callout: none;  /* iPhone OS, Safari */
+    -webkit-user-select: none;    /* Chrome, Safari 3 */
+    -khtml-user-select: none;     /* Safari 2 */
+    -moz-user-select: none;       /* Firefox */
+    -ms-user-select: none;        /* IE10+ */
+    user-select: none;            /* Possível implementação no futuro */
+  }
+
+.paragraph {
+    font-weight: 400; 
+    margin-left: 13%;
+    margin-right: 13%; 
+    font-size: 1.1vw;
+    -webkit-touch-callout: none;  /* iPhone OS, Safari */
+    -webkit-user-select: none;    /* Chrome, Safari 3 */
+    -khtml-user-select: none;     /* Safari 2 */
+    -moz-user-select: none;       /* Firefox */
+    -ms-user-select: none;        /* IE10+ */
+    user-select: none;            /* Possível implementação no futuro */
+}
+
+.remember {
+    font-weight: 400; 
+    margin-left: 10.1%;
+    margin-right: 9.5%; 
+    font-size: 1.1vw;
+    display: flex;
+    align-items: center;
+}
+
+.senha {
+    font-weight: 400; 
+    margin-left: 15.7%;
+    text-decoration: none;
+    color: #5F6F52;
+}
+
+.campos {
+    width: 24vw;
+    height: 8.5vh;
+    border-radius: 0.7vw;
+    border: none;
+    background-color: #F0F0F0;
+    outline: none;
+    font-size: 3vh;
+    font-weight: 400;
+    color: #6E6E6E;
+    padding-left: 3%;
+    margin-top: 4%;
+}
+
+.image {
+    background-image: linear-gradient(#5F6F52cc, #A9B388cc), url("./assets/bg.jpg");
+    background-size: auto 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    width: 58%;
+    display: flex;
+    border-top-right-radius: 3vw;
+    border-bottom-right-radius: 3vw;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.button {
+  width: 80%;
+  height: 60px;
+}
+
+.resend {
+  width: 25vw;
+  height: 6.5vh;
+  border-radius: 0.7vw;
+  border: none;
+  background-color: #71A3AC;
+  font-size: 3vh;
+  font-weight: 700;
+  color: white;
+  transition: 0.2s ease;
+  cursor: pointer;
+  position: absolute;
+  bottom: 2vh;
+}
+
+.or {
+    font-weight: 400; 
+    font-size: 1.5vw; 
+    color: #606162; 
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 79.1%;
+    margin-left: 10.3%;
+}
+
+.or:before, .or:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 0.3vh solid;
+  margin: auto;
+}
+
+.or:before {
+  margin-right: 0.7vw
+}
+.or:after {
+  margin-left: 0.7vw
+}

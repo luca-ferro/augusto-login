@@ -1,0 +1,11 @@
+.hidden {
+  display: none !important;
+}
+
+.bold, .dark-bold {
+  font-weight: 700;
+}
+
+.dark-bold {
+  color: #000;
+}
